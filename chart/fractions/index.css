@@ -1,0 +1,13 @@
+.fractions {
+  position: absolute;
+  transform: translate(200px, 80px);
+}
+
+.fraction {
+  width: 1px;
+  height: 120px;
+  background-color: #E8E9ED;
+  position: absolute;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}

@@ -1,0 +1,7 @@
+.rotator {
+    transform-box: fill-box;
+    transform-origin: center bottom;
+    width: 20px;
+    height: 131px;
+    z-index: 100;
+}

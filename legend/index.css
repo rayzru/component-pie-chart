@@ -1,0 +1,25 @@
+.legend {
+    min-width: 152px;
+}
+
+.legend__item {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.legend__text {
+    color: #394B68;
+    font-size: 18px;
+    max-width: 432px;
+}
+
+.legend__item + .legend__item {
+    margin-top: 16px;
+}
+
+.legend__item.select + .legend__item.select {
+    margin-top: 8px;
+}

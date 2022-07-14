@@ -1,0 +1,41 @@
+.svglabels {
+    position: absolute;
+    pointer-events: none;
+}
+
+.labels .label-hidden {
+    display: none;
+}
+
+.labels .label-stack.label-stack-1 .label-shadow-1 { opacity: 1;}
+
+.labels .label-stack.label-stack-2 .label-shadow-1,
+.labels .label-stack.label-stack-2 .label-shadow-2 { opacity: 1;}
+
+.labels .label-stack.label-stack-3 .label-shadow-1,
+.labels .label-stack.label-stack-3 .label-shadow-2,
+.labels .label-stack.label-stack-3 .label-shadow-3 { opacity: 1;}
+
+.labels .label-stack.label-stack-4 .label-shadow-1,
+.labels .label-stack.label-stack-4 .label-shadow-2,
+.labels .label-stack.label-stack-4 .label-shadow-3,
+.labels .label-stack.label-stack-4 .label-shadow-4 { opacity: 1;}
+
+.labels .label-stack.label-stack-5 .label-shadow-1,
+.labels .label-stack.label-stack-5 .label-shadow-2,
+.labels .label-stack.label-stack-5 .label-shadow-3,
+.labels .label-stack.label-stack-5 .label-shadow-4,
+.labels .label-stack.label-stack-5 .label-shadow-5 { opacity: 1;}
+
+.labels .label .label-shadow  {
+    opacity: 0;
+}
+
+svg text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}

@@ -1,0 +1,64 @@
+.control-element {
+    transform-box: fill-box;
+    transform-origin: center bottom;
+    position: absolute;
+}
+
+.control-element .line {
+    width: 2px;
+    border-radius: 1px;
+    height: 120px;
+}
+
+.control-element .ctrl {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: rotate(45deg);
+    cursor: pointer;
+    position: absolute;
+    top: -12px;
+    left: -11px;
+    z-index: 0;
+}
+
+.control-element .ctrl::before,
+.control-element .ctrl::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+}
+
+.control-element .ctrl::before {
+    top: -2px;
+    left: -2px;
+    background: rgba(149, 167, 198, 0.5);
+    filter: blur(8px);
+}
+
+.control-element .ctrl::after {
+    background-color: #fff;
+}
+
+.control-element .cw,
+.control-element .ccw {
+    position: absolute;
+    border: 10px solid transparent
+}
+
+.control-element .cw {
+    transform: rotate(-90deg);
+    top: -10px;
+    left: 2px;
+}
+
+.control-element .ccw {
+    transform: rotate(90deg);
+    top: -10px;
+    right: 2px;
+}

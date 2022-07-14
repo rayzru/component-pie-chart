@@ -1,0 +1,12 @@
+body {
+    font-family: 'Yandex Sans';
+}
+
+.pies {
+    position: relative;
+   
+}
+
+.background-circle {
+    fill: #F0F1F5;
+}

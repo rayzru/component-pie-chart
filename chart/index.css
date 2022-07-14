@@ -1,0 +1,28 @@
+.component-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px 24px 18px;
+    max-width: 960px;
+}
+
+.component-title-wrapper {
+    max-width: 240px;
+    margin-bottom: 22px;
+    min-height: 58px;
+}
+
+.component-columns {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.component-column + .component-column {
+    margin-left: 24px;
+}
+
+.chart-wrapper {
+    min-width: 400px;
+    min-height: 400px;
+    position: relative;
+    margin-top: -70px;
+}
